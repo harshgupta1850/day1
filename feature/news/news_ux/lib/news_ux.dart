@@ -16,7 +16,7 @@ final mainfest =
     NewsAPI().fetchArticles();
     return ListTile(
       tileColor: Colors.green,
-      title: Text('test' ?? ''),
+      title: Text(model.title ?? ''),
       subtitle: Text(model.description ?? ''),
     );
   }
