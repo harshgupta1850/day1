@@ -22,7 +22,7 @@ void main() {
   final depandancy = GetItDependencyInjectionPlugin();
 
   mystiq.runApp(
-      features: [core.manifest, news.mainfest],
+      features: [core.manifest, news.manifest],
       contentPlugin: content,
       storagePlugin: storage,
       secureStoragePlugin: secureStorage,
